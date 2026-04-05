@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر تطبيقات الشاشة</title>
+    <style>
+        :root {
+            --primary-color: #ff9800;
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --text-color: #ffffff;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 { color: var(--primary-color); margin-bottom: 30px; font-size: 28px; }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .app-card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            padding: 15px;
+            transition: transform 0.3s, border 0.3s;
+            border: 2px solid transparent;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+        }
+        /* تأثير التركيز للريموت كنترول */
+        .app-card:focus, .app-card:hover {
+            transform: scale(1.05);
+            border-color: var(--primary-color);
+            outline: none;
+            background: #252525;
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            background: #333;
+            border-radius: 18px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+        }
+        .app-name {
+            font-size: 14px;
+            font-weight: bold;
+            height: 40px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        .download-txt {
+            margin-top: 10px;
+            font-size: 12px;
+            background: var(--primary-color);
+            color: black;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>متجر تطبيقات الشاشة الذكية</h1>
+
+    <div class="container">
+
+        <a href="https://www.mediafire.com/file/4cv1z32mfteld3p/" class="app-card">
+            <div class="app-icon">🔄</div>
+            <div class="app-name">التحكم بدوران الشاشة</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/b3hptricmquhdxx/" class="app-card">
+            <div class="app-icon">🎬</div>
+            <div class="app-name">يوتيوب بدون اعلانات</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/yxrhf80f3cjlzbj/" class="app-card">
+            <div class="app-icon">📺</div>
+            <div class="app-name">شامل TV</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/871pd2vjrnr61o6/" class="app-card">
+            <div class="app-icon">📱</div>
+            <div class="app-name">ريموت LG وسامسونج</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/dklflszegkj3nu2/" class="app-card">
+            <div class="app-icon">🎥</div>
+            <div class="app-name">سينمانا</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/qew8ex7ymvw5tru/" class="app-card">
+            <div class="app-icon">📦</div>
+            <div class="app-name">سينما بوكس</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/zd3gmxpxajnd92r/" class="app-card">
+            <div class="app-icon">⭐</div>
+            <div class="app-name">اوسكار TV</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/er2mbcndf7ewvob/" class="app-card">
+            <div class="app-icon">⚙️</div>
+            <div class="app-name">مشغل M3U8 مدفوع</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/fx9fovft2sx7ylz/" class="app-card">
+            <div class="app-icon">💎</div>
+            <div class="app-name">لوكس بلاير</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/1mq7p3dtxq18x4f/" class="app-card">
+            <div class="app-icon">👨‍💻</div>
+            <div class="app-name">احمد TV</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/thks8qiy7s43vek/" class="app-card">
+            <div class="app-icon">👑</div>
+            <div class="app-name">تطبيق الرئيس</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/9mbxm2qfxzpo75n/" class="app-card">
+            <div class="app-icon">🇮🇶</div>
+            <div class="app-name">1 بغداد</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/im4qb8d4xoayurl/" class="app-card">
+            <div class="app-icon">⚽</div>
+            <div class="app-name">الأسطورة TV</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/ndhw0ce6k6unqgg/" class="app-card">
+            <div class="app-icon">⚡</div>
+            <div class="app-name">MAX 4K</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/tt9d0hzp239dna6/" class="app-card">
+            <div class="app-icon">🧩</div>
+            <div class="app-name">Google Play Services</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/rihhfnvx9jyxzw8/" class="app-card">
+            <div class="app-icon">📽️</div>
+            <div class="app-name">HiTV</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/x0lzf0hc4xfirie/" class="app-card">
+            <div class="app-icon">📡</div>
+            <div class="app-name">XTREAM IPTV</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/uez0lmrs8qsrp5o/" class="app-card">
+            <div class="app-icon">♾️</div>
+            <div class="app-name">Forever TV</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/1xzr3oi0rvm5x2j/" class="app-card">
+            <div class="app-icon">⚽</div>
+            <div class="app-name">TOD</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+        <a href="https://www.mediafire.com/file/rihg42sh1qbjym2/" class="app-card">
+            <div class="app-icon">🎬</div>
+            <div class="app-name">المنصة للشاشات</div>
+            <div class="download-txt">تحميل</div>
+        </a>
+
+    </div>
+
+    <p style="margin-top: 50px; color: #777; font-size: 12px;">تم التطوير لخدمة مشتركين MAX VIP STORE</p>
+
+</body>
+</html>
